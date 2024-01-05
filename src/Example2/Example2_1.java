@@ -1,13 +1,13 @@
 package Example2;
-//ÓÃÀàĞÍ×ª»»ÏÔÊ¾Ò»Ğ©×Ö·ûÔÚUnicode±íÖĞµÄÎ»ÖÃ
+//ç”¨ç±»å‹è½¬æ¢æ˜¾ç¤ºä¸€äº›å­—ç¬¦åœ¨Unicodeè¡¨ä¸­çš„ä½ç½®
 
 public class Example2_1 {
     public static void main(String[] args) {
-        char chinaWord ='ºÃ',japanWordd = '$';
+        char chinaWord ='å¥½',japanWordd = '$';
         char you = '\u4F60';
         int position = 20320;
-        System.out.println("ºº×Ö£º"+chinaWord+"µÄÎ»ÖÃ£º"+(int)chinaWord);
-        System.out.println(position +"Î»ÖÃÉÏµÄ×Ö·ûÊÇ£º"+(char)position);
+        System.out.println("æ±‰å­—ï¼š"+chinaWord+"çš„ä½ç½®ï¼š"+(int)chinaWord);
+        System.out.println(position +"ä½ç½®ä¸Šçš„å­—ç¬¦æ˜¯ï¼š"+(char)position);
         System.out.println("you:"+you);
         System.out.println("test");
 

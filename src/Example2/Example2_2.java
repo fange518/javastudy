@@ -1,5 +1,5 @@
 package Example2;
-//ÀàĞÍ×ª»»Ëã·¨
+//ç±»å‹è½¬æ¢ç®—æ³•
 
 public class Example2_2 {
     public static void main(String[] args) {
@@ -11,8 +11,8 @@ public class Example2_2 {
         System.out.println("n = "+n);
         System.out.println("f = "+f);
         System.out.println("d = "+d);
-        b = (byte)n;    //µ¼ÖÂ¾«¶ÈµÄËğÊ§
-        f = (float)d;   //µ¼ÖÂ¾«¶ÈµÄËğÊ§
+        b = (byte)n;    //å¯¼è‡´ç²¾åº¦çš„æŸå¤±
+        f = (float)d;   //å¯¼è‡´ç²¾åº¦çš„æŸå¤±
         System.out.println("b = "+b);
         System.out.println("f = "+f);
     }

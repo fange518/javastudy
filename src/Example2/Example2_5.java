@@ -2,13 +2,13 @@ package Example2;
 
 import java.util.Scanner;
 
-//ÊäÈëÒ»¸öÕûÊıÊÇ·ñÔÚÒÑÖªÊı×éÖĞ
+//è¾“å…¥ä¸€ä¸ªæ•´æ•°æ˜¯å¦åœ¨å·²çŸ¥æ•°ç»„ä¸­
 public class Example2_5 {
     public static void main(String[] args) {
         int start =0, end, middle;
         int a[] = {12,45,67,89,123,-45,67};
         int N = a.length;
-        for(int i=0;i<N; i++){//Ñ¡Ôñ·¨ÅÅĞòÊı×é
+        for(int i=0;i<N; i++){//é€‰æ‹©æ³•æ’åºæ•°ç»„
             for(int j = i+1;j < N;j++){
                 if (a[j]<a[i]){
                     int t = a[j];
@@ -19,7 +19,7 @@ public class Example2_5 {
 
         }
         Scanner scanner = new Scanner(System.in);
-        System.out.println("ÊäÈëÕûÊı£¬³ÌĞòÅĞ¶Ï¸ÃÕûÊıÊÇ·ñÔÚÊı×éÖĞ:");
+        System.out.println("è¾“å…¥æ•´æ•°ï¼Œç¨‹åºåˆ¤æ–­è¯¥æ•´æ•°æ˜¯å¦åœ¨æ•°ç»„ä¸­:");
         int number = scanner.nextInt();
         int count = 0;
         end = N;
@@ -36,9 +36,9 @@ public class Example2_5 {
 
         }
         if (count>N/2)
-            System.out.printf("%d²»ÔÚÊı×éÖĞ.\n",number);
+            System.out.printf("%dä¸åœ¨æ•°ç»„ä¸­.\n",number);
         else
-            System.out.printf("%dÔÚÊı×éÖĞ.\n",number);
+            System.out.printf("%dåœ¨æ•°ç»„ä¸­.\n",number);
 
     }
 }
