@@ -9,6 +9,7 @@ public class Example2_1 {
         System.out.println("汉字："+chinaWord+"的位置："+(int)chinaWord);
         System.out.println(position +"位置上的字符是："+(char)position);
         System.out.println("you:"+you);
+        System.out.println("test");
 
 
     }
